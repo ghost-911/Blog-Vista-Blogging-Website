@@ -1,0 +1,73 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("thought-catalog-sCKtNbIKOuQ-unsplash.jpg");
+    background-size: cover;
+  }
+  
+  .loginTitle {
+    font-size: 50px;
+  }
+  
+  .loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginForm > label {
+    margin: 10px 0;
+  }
+  
+  .loginInput {
+    padding: 10px;
+    background-color: white;
+    border: 1.85px solid black;
+    border-radius: 8px;
+
+  }
+
+  
+  .loginInput:focus {
+    outline: none;
+  }
+  
+  .loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgba(14, 90, 14, 0.866);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .loginButton:hover{
+    opacity:.9;
+    box-shadow: 1px 1px 2px 3px rgb(22, 75, 70);
+  }
+  
+  .loginRegisterButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .loginRegisterButton:hover{
+    opacity:.9;
+    box-shadow: -4px -2px 2px 3px rgb(22, 75, 70);
+  }

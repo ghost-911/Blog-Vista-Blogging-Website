@@ -1,0 +1,65 @@
+.singpost{
+    flex: 9;
+}
+
+.singpostwrapper{
+    padding: 20px;
+    padding-right: 0;
+
+}
+
+.singpostimg{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.singpostTitle{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Lora',serif;
+    font-size: 28px;
+}
+
+.singpostedit{
+    float: right;
+    font-size: 16px;
+
+}
+
+.singpostIcon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singpostIcon:first-child{
+    color: teal;
+}
+.singpostIcon:last-child{
+    color: tomato;
+}
+
+.singpostInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;   
+     color: #b79346;
+
+}
+
+.singpostDesc{
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
+.singpostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
