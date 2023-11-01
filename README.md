@@ -1,6 +1,6 @@
 # Blog Website Project
 
-Welcome to the Blog Website Project! This project is a user-friendly web application designed to help users publish and manage their blog posts with ease. Below, you'll find an overview of the project, its features, and how to get started.
+Welcome to the Blog Website Project! This project is a user-friendly web application designed to help users publish and manage their blog posts with ease. Below, you'll find an overview of the project, its features, and Picture of the project(will upload shortly after completion:) )
 
 ## Features
 
